@@ -60,7 +60,6 @@
   * JS basics: `fetch` API to call FastAPI endpoints
   * Displaying JSON response in `<pre>` or `<div>`
 * **Hands-on practice:** Create a simple page with textarea + run button that sends code to FastAPI and prints output.
-
 ---
 
 ## **5. Code Execution & Security**
@@ -119,4 +118,5 @@
 If you want, I can make a **step-by-step learning roadmap with resources**, so you can go from zero to building this full online compiler.
 
 Do you want me to make that roadmap?
+
 
