@@ -17,7 +17,6 @@
 * **Hands-on practice:** Create a simple REST API first that just echoes back data sent from frontend.
 
 ---
-
 ## **2. Docker Basics**  
 * **Why:** Docker will run user-submitted code in a **safe isolated container**, supporting multiple languages.
 * **Topics to learn:**
@@ -117,6 +116,7 @@
 If you want, I can make a **step-by-step learning roadmap with resources**, so you can go from zero to building this full online compiler.
 
 Do you want me to make that roadmap?
+
 
 
 
