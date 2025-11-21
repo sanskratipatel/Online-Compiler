@@ -17,7 +17,6 @@
 * **Hands-on practice:** Create a simple REST API first that just echoes back data sent from frontend.
 
 ---
-
 ## **2. Docker Basics**  
 * **Why:** Docker will run user-submitted code in a **safe isolated container**, supporting multiple languages.
 * **Topics to learn:**
