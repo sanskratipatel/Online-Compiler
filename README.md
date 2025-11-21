@@ -120,3 +120,12 @@ Do you want me to make that roadmap?
 
 
 
+
+
+
+DB_FILE = /home/katyayani/Desktop/Personal/Online-Compiler/app.db 
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_USER=youremail@gmail.com
+EMAIL_PASS=your_app_password
+EMAIL_FROM="Online Compiler <youremail@gmail.com>"
