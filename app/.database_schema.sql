@@ -1,8 +1,0 @@
-CREATE TABLE users (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    username TEXT UNIQUE NOT NULL,
-    email TEXT UNIQUE NOT NULL,
-    password TEXT NOT NULL,
-    is_verified BOOLEAN NOT NULL DEFAULT 0,
-    is_active BOOLEAN NOT NULL DEFAULT 1
-);

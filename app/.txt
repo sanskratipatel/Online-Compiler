@@ -1,6 +1,0 @@
-.tables
-.schema
-SELECT * FROM users;
-
-
-sqlite3 /home/katyayani/Desktop/Personal/Online-Compiler/app.db

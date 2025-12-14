@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  compiler:
+    build: .
+    image: online-compiler
+    ports:
+      - "8001:8000"  # external port 8001 maps to internal 8000
+    volumes:
+      - ./backend:/app/backend  # only mount backend, prevents breaking paths
+      # Remove /var/run/docker.sock if not required
+    command: uvicorn backend.app.main:app --host 0.0.0.0 --port 8000

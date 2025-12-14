@@ -1,0 +1,34 @@
+online-compiler/
+│
+├── backend/
+│   ├── app/
+│   │   ├── main.py              # FastAPI entry
+│   │   ├── config.py            # env vars
+│   │   ├── database.py          # SQLite connection
+│   │   ├── models.py            # DB models
+│   │   ├── schemas.py           # Pydantic schemas
+│   │   ├── routers/
+│   │   │   ├── run_code.py      # run code API
+│   │   │   └── snippets.py      # save/retrieve code
+│   │   ├── services/
+│   │   │   └── executor.py      # Docker execution logic
+│   │   └── utils/
+│   │       └── language_map.py  # language configs
+│   │
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── docker/
+│   ├── python.Dockerfile
+│   ├── cpp.Dockerfile
+│   ├── java.Dockerfile
+│   └── node.Dockerfile
+│
+├── docker-compose.yml
+├── .env
+├── README.md
+└── app.db
